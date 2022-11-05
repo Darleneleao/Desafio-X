@@ -1,0 +1,15 @@
+server:
+  error:
+    include-stacktrace: on param
+
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/cadastro
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+    jpa:
+      database: POSTGRES
+      hibernate.ddl-auto: create
+      generate-ddl: true
